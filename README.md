@@ -1,8 +1,11 @@
-# React + Vite
+# ⚛️ Educational Project: React-Redux-App-ClassWork
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is an educational project demonstrating the fundamentals of state management using **Redux Toolkit** (RTK) with React. It implements a simple application featuring a **Counter** and a **Theme Switcher**, relying entirely on the Redux store for all user interface state.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies and Libraries Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **React**
+* **Redux Toolkit** (RTK) — For simplified Redux setup and reducing boilerplate code.
+* **React-Redux** (`connect` HOC) — For connecting React components to the Redux store.
+* **classnames** — For conditional management of CSS classes based on the current theme.
+* **CSS Modules** — For component-level styling.
